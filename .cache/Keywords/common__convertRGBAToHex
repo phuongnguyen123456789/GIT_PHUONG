@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "5F2735CDEFDD9E1284C60220231FBACE",
+  "keywordClasses": [
+    {
+      "name": "common.ConvertRGBAToHex",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

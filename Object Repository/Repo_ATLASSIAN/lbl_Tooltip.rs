@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>lbl_Tooltip</name>
+   <tag></tag>
+   <elementGuidId>eeec0b06-2e2a-4aca-aad0-f4d70bbd3459</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = '491val-tooltip' and contains(@class, 'css-fqyi1o')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@id, '2val-tooltip')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>491val-tooltip</value>
+      <webElementGuid>f4ab3039-60ee-4ccd-9d02-b138b91773af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>css-fqyi1o</value>
+      <webElementGuid>545556c5-d431-460d-be92-3b6f344319fa</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

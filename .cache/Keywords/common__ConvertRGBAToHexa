@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "21AAB00CBCFCF22F7689B5452A7DB1F6",
+  "keywordClasses": [
+    {
+      "name": "common.ConvertRGBAToHexa",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}
