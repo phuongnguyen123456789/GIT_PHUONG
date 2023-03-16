@@ -12,7 +12,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[contains(@id, '2val-tooltip')]</value>
+         <value>//div[contains(@id, '3val-tooltip')]</value>
       </entry>
       <entry>
          <key>CSS</key>
