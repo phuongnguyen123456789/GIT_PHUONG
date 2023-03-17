@@ -4,23 +4,20 @@
    <name>lbl_Tooltip</name>
    <tag></tag>
    <elementGuidId>eeec0b06-2e2a-4aca-aad0-f4d70bbd3459</elementGuidId>
-   <imagePath></imagePath>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
          <value>//*[@id = '491val-tooltip' and contains(@class, 'css-fqyi1o')]</value>
       </entry>
       <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>//div[contains(@id, '3val-tooltip')]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>IMAGE</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +28,7 @@
       <name>id</name>
       <type>Main</type>
       <value>491val-tooltip</value>
-      <webElementGuid>f4ab3039-60ee-4ccd-9d02-b138b91773af</webElementGuid>
+      <webElementGuid>3c602dbe-e375-45d1-a613-e075841747fe</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,6 +36,6 @@
       <name>class</name>
       <type>Main</type>
       <value>css-fqyi1o</value>
-      <webElementGuid>545556c5-d431-460d-be92-3b6f344319fa</webElementGuid>
+      <webElementGuid>2cf34dbb-62ca-4198-ae5e-63e5f3e348c3</webElementGuid>
    </webElementProperties>
 </WebElementEntity>

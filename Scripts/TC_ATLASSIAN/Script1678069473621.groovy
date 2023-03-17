@@ -23,7 +23,7 @@ String backgroundColor = WebUI.getCSSValue(findTestObject('Object Repository/Rep
 String newBackgroundColor = Utilities.convertRGBAToHex(backgroundColor)
 
 //Verify backgroud color of hover is displayed correctly
-WebUI.verifyEqual(newBackgroundColor, '#0065ff')
+WebUI.verifyEqual(newBackgroundColor, '#0055cc')
 
 //Close browser
 WebUI.closeBrowser()
