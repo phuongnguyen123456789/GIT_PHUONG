@@ -17,23 +17,20 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-//Open http://the-internet.herokuapp.com/login
-WebUI.openBrowser('http://the-internet.herokuapp.com/login')
+//Open https://demos.telerik.com/kendo-ui/dropdownlist/index
+WebUI.openBrowser("http://demos.telerik.com/kendo-ui/dropdownlist/index")
 
-//Maximize Window
+//Maximize window
 WebUI.maximizeWindow()
 
-//Input Username "tomsmith"
-WebUI.setText(findTestObject('Object Repository/Repo_TheInternet/txt_Username'), 'tomsmith')
+//Click on Categories dropdown control
+WebUI.click(findTestObject('Object Repository/Repo_Dropdown/ddl_Categories'))
 
-//Input Password "SuperSecretPassword!"
-WebUI.setText(findTestObject('Object Repository/Repo_TheInternet/txt_Password'), 'SuperSecretPassword!')
+//Select item on Categories dropdown
+WebUI.click(findTestObject('Object Repository/Repo_Dropdown/ddl_SingleItem'))
 
-//Click button Login
-WebUI.click(findTestObject('Object Repository/Repo_TheInternet/btn_Login'),FailureHandling.STOP_ON_FAILURE)
-
-//Verify text "Welcome to the Secure Area. When you are done click logout below." displayed
-WebUI.verifyTextPresent('Welcome to the Secure Area. When you are done click logout below.', false)
+//Delay 2s
+WebUI.delay(2)
 
 //Close browser
 WebUI.closeBrowser()
